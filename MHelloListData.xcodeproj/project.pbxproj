@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50968F7EA7AC36BCFF983226 /* libPods-MHelloListDataUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F24BC43D4243A17EEEDDC4C /* libPods-MHelloListDataUITests.a */; };
+		5729C3B047D852D7784E4BF7 /* libPods-MHelloListData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF22E141BB39B23754CDD7F /* libPods-MHelloListData.a */; };
+		9961F2851F46E6AD003D8EFC /* LocalNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2841F46E6AD003D8EFC /* LocalNetworkViewController.m */; };
+		9961F2931F46E6B2003D8EFC /* LNReturnData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2891F46E6B2003D8EFC /* LNReturnData.m */; };
+		9961F29B1F46E6ED003D8EFC /* Repo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2991F46E6ED003D8EFC /* Repo.m */; };
+		9961F2A41F497740003D8EFC /* LNRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2A31F497740003D8EFC /* LNRequestManager.m */; };
+		9961F2A71F497760003D8EFC /* LNRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2A61F497760003D8EFC /* LNRequest.m */; };
+		9961F2D41F4AB8E5003D8EFC /* OCStarListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2D11F4AB8E5003D8EFC /* OCStarListModel.m */; };
+		9961F2D91F4AB927003D8EFC /* LNListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2D81F4AB927003D8EFC /* LNListModel.m */; };
+		9961F2DC1F4AB93A003D8EFC /* LNDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2DB1F4AB93A003D8EFC /* LNDetailModel.m */; };
+		9961F2DF1F4AC460003D8EFC /* JSONRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2DE1F4AC460003D8EFC /* JSONRequestManager.m */; };
+		9961F2E21F4AC472003D8EFC /* HTMLRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2E11F4AC472003D8EFC /* HTMLRequestManager.m */; };
 		99B066ED1F2EE3200023C47E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B066EC1F2EE3200023C47E /* main.m */; };
 		99B066F01F2EE3200023C47E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B066EF1F2EE3200023C47E /* AppDelegate.m */; };
 		99B066F31F2EE3200023C47E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B066F21F2EE3200023C47E /* ViewController.m */; };
@@ -15,6 +27,12 @@
 		99B066FB1F2EE3200023C47E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B066F91F2EE3200023C47E /* LaunchScreen.storyboard */; };
 		99B067061F2EE3200023C47E /* MHelloListDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B067051F2EE3200023C47E /* MHelloListDataTests.m */; };
 		99B067111F2EE3200023C47E /* MHelloListDataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B067101F2EE3200023C47E /* MHelloListDataUITests.m */; };
+		99B067541F2F55DC0023C47E /* NetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B0674B1F2F55DC0023C47E /* NetworkViewController.m */; };
+		99B067551F2F55DC0023C47E /* NMockRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B0674D1F2F55DC0023C47E /* NMockRequest.m */; };
+		99B067561F2F55DC0023C47E /* NModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B0674F1F2F55DC0023C47E /* NModel.m */; };
+		99B067571F2F55DC0023C47E /* NResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B067511F2F55DC0023C47E /* NResponse.m */; };
+		99B067581F2F55DC0023C47E /* NSomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B067531F2F55DC0023C47E /* NSomeModel.m */; };
+		F5BCE71053F88B45572E097F /* libPods-MHelloListDataTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8644FFE9CB327200803D28 /* libPods-MHelloListDataTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +53,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0694C8DF864584D9EA60A1F7 /* Pods-MHelloListDataUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHelloListDataUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MHelloListDataUITests/Pods-MHelloListDataUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2822611CDAA7956C7EC58E06 /* Pods-MHelloListData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHelloListData.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHelloListData/Pods-MHelloListData.release.xcconfig"; sourceTree = "<group>"; };
+		29667CD68EC169A854D98263 /* Pods-MHelloListDataUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHelloListDataUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHelloListDataUITests/Pods-MHelloListDataUITests.release.xcconfig"; sourceTree = "<group>"; };
+		33F2F29AEBF9088A697909BB /* Pods-MHelloListData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHelloListData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MHelloListData/Pods-MHelloListData.debug.xcconfig"; sourceTree = "<group>"; };
+		87BBF8C1F70DA1EAA0995C11 /* Pods-MHelloListDataTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHelloListDataTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHelloListDataTests/Pods-MHelloListDataTests.release.xcconfig"; sourceTree = "<group>"; };
+		9961F2831F46E6AD003D8EFC /* LocalNetworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalNetworkViewController.h; sourceTree = "<group>"; };
+		9961F2841F46E6AD003D8EFC /* LocalNetworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalNetworkViewController.m; sourceTree = "<group>"; };
+		9961F2881F46E6B2003D8EFC /* LNReturnData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNReturnData.h; sourceTree = "<group>"; };
+		9961F2891F46E6B2003D8EFC /* LNReturnData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNReturnData.m; sourceTree = "<group>"; };
+		9961F2981F46E6ED003D8EFC /* Repo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repo.h; sourceTree = "<group>"; };
+		9961F2991F46E6ED003D8EFC /* Repo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repo.m; sourceTree = "<group>"; };
+		9961F2A21F49773F003D8EFC /* LNRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNRequestManager.h; sourceTree = "<group>"; };
+		9961F2A31F497740003D8EFC /* LNRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNRequestManager.m; sourceTree = "<group>"; };
+		9961F2A51F497760003D8EFC /* LNRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNRequest.h; sourceTree = "<group>"; };
+		9961F2A61F497760003D8EFC /* LNRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNRequest.m; sourceTree = "<group>"; };
+		9961F2D01F4AB8E5003D8EFC /* OCStarListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCStarListModel.h; sourceTree = "<group>"; };
+		9961F2D11F4AB8E5003D8EFC /* OCStarListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCStarListModel.m; sourceTree = "<group>"; };
+		9961F2D71F4AB927003D8EFC /* LNListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNListModel.h; sourceTree = "<group>"; };
+		9961F2D81F4AB927003D8EFC /* LNListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNListModel.m; sourceTree = "<group>"; };
+		9961F2DA1F4AB93A003D8EFC /* LNDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNDetailModel.h; sourceTree = "<group>"; };
+		9961F2DB1F4AB93A003D8EFC /* LNDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNDetailModel.m; sourceTree = "<group>"; };
+		9961F2DD1F4AC460003D8EFC /* JSONRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRequestManager.h; sourceTree = "<group>"; };
+		9961F2DE1F4AC460003D8EFC /* JSONRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONRequestManager.m; sourceTree = "<group>"; };
+		9961F2E01F4AC472003D8EFC /* HTMLRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLRequestManager.h; sourceTree = "<group>"; };
+		9961F2E11F4AC472003D8EFC /* HTMLRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLRequestManager.m; sourceTree = "<group>"; };
 		99B066E81F2EE3200023C47E /* MHelloListData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHelloListData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B066EC1F2EE3200023C47E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		99B066EE1F2EE3200023C47E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +94,20 @@
 		99B0670C1F2EE3200023C47E /* MHelloListDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MHelloListDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B067101F2EE3200023C47E /* MHelloListDataUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHelloListDataUITests.m; sourceTree = "<group>"; };
 		99B067121F2EE3200023C47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99B0674A1F2F55DC0023C47E /* NetworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkViewController.h; sourceTree = "<group>"; };
+		99B0674B1F2F55DC0023C47E /* NetworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkViewController.m; sourceTree = "<group>"; };
+		99B0674C1F2F55DC0023C47E /* NMockRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMockRequest.h; sourceTree = "<group>"; };
+		99B0674D1F2F55DC0023C47E /* NMockRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMockRequest.m; sourceTree = "<group>"; };
+		99B0674E1F2F55DC0023C47E /* NModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NModel.h; sourceTree = "<group>"; };
+		99B0674F1F2F55DC0023C47E /* NModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NModel.m; sourceTree = "<group>"; };
+		99B067501F2F55DC0023C47E /* NResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NResponse.h; sourceTree = "<group>"; };
+		99B067511F2F55DC0023C47E /* NResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NResponse.m; sourceTree = "<group>"; };
+		99B067521F2F55DC0023C47E /* NSomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSomeModel.h; sourceTree = "<group>"; };
+		99B067531F2F55DC0023C47E /* NSomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSomeModel.m; sourceTree = "<group>"; };
+		9F24BC43D4243A17EEEDDC4C /* libPods-MHelloListDataUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MHelloListDataUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A881DF6762548DBB6035F8BC /* Pods-MHelloListDataTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHelloListDataTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MHelloListDataTests/Pods-MHelloListDataTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA8644FFE9CB327200803D28 /* libPods-MHelloListDataTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MHelloListDataTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF22E141BB39B23754CDD7F /* libPods-MHelloListData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MHelloListData.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5729C3B047D852D7784E4BF7 /* libPods-MHelloListData.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5BCE71053F88B45572E097F /* libPods-MHelloListDataTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +131,104 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50968F7EA7AC36BCFF983226 /* libPods-MHelloListDataUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		690E6E5DB63A780B0024F2CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33F2F29AEBF9088A697909BB /* Pods-MHelloListData.debug.xcconfig */,
+				2822611CDAA7956C7EC58E06 /* Pods-MHelloListData.release.xcconfig */,
+				A881DF6762548DBB6035F8BC /* Pods-MHelloListDataTests.debug.xcconfig */,
+				87BBF8C1F70DA1EAA0995C11 /* Pods-MHelloListDataTests.release.xcconfig */,
+				0694C8DF864584D9EA60A1F7 /* Pods-MHelloListDataUITests.debug.xcconfig */,
+				29667CD68EC169A854D98263 /* Pods-MHelloListDataUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9961F2861F46E6B2003D8EFC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9961F28F1F46E6B2003D8EFC /* Request */,
+				9961F2921F46E6B2003D8EFC /* Storage */,
+				9961F2871F46E6B2003D8EFC /* Data */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9961F2871F46E6B2003D8EFC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9961F2881F46E6B2003D8EFC /* LNReturnData.h */,
+				9961F2891F46E6B2003D8EFC /* LNReturnData.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9961F28F1F46E6B2003D8EFC /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				9961F2A21F49773F003D8EFC /* LNRequestManager.h */,
+				9961F2A31F497740003D8EFC /* LNRequestManager.m */,
+				9961F2DD1F4AC460003D8EFC /* JSONRequestManager.h */,
+				9961F2DE1F4AC460003D8EFC /* JSONRequestManager.m */,
+				9961F2E01F4AC472003D8EFC /* HTMLRequestManager.h */,
+				9961F2E11F4AC472003D8EFC /* HTMLRequestManager.m */,
+				9961F2A51F497760003D8EFC /* LNRequest.h */,
+				9961F2A61F497760003D8EFC /* LNRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		9961F2921F46E6B2003D8EFC /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		9961F2971F46E6ED003D8EFC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9961F2981F46E6ED003D8EFC /* Repo.h */,
+				9961F2991F46E6ED003D8EFC /* Repo.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9961F2CE1F4AB8E5003D8EFC /* List */ = {
+			isa = PBXGroup;
+			children = (
+				9961F2D71F4AB927003D8EFC /* LNListModel.h */,
+				9961F2D81F4AB927003D8EFC /* LNListModel.m */,
+				9961F2CF1F4AB8E5003D8EFC /* StarList */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		9961F2CF1F4AB8E5003D8EFC /* StarList */ = {
+			isa = PBXGroup;
+			children = (
+				9961F2D01F4AB8E5003D8EFC /* OCStarListModel.h */,
+				9961F2D11F4AB8E5003D8EFC /* OCStarListModel.m */,
+			);
+			path = StarList;
+			sourceTree = "<group>";
+		};
+		9961F2D61F4AB8FA003D8EFC /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				9961F2DA1F4AB93A003D8EFC /* LNDetailModel.h */,
+				9961F2DB1F4AB93A003D8EFC /* LNDetailModel.m */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		99B066DF1F2EE3200023C47E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +236,8 @@
 				99B067041F2EE3200023C47E /* MHelloListDataTests */,
 				99B0670F1F2EE3200023C47E /* MHelloListDataUITests */,
 				99B066E91F2EE3200023C47E /* Products */,
+				690E6E5DB63A780B0024F2CD /* Pods */,
+				C63914DDA23FD0BC592326CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +259,8 @@
 				99B066F11F2EE3200023C47E /* ViewController.h */,
 				99B066F21F2EE3200023C47E /* ViewController.m */,
 				99B066F41F2EE3200023C47E /* Main.storyboard */,
+				99B067491F2F55DC0023C47E /* Network */,
+				99B067481F2F55DC0023C47E /* LocalNetwork */,
 				99B066F71F2EE3200023C47E /* Assets.xcassets */,
 				99B066F91F2EE3200023C47E /* LaunchScreen.storyboard */,
 				99B066FC1F2EE3200023C47E /* Info.plist */,
@@ -140,6 +295,48 @@
 			path = MHelloListDataUITests;
 			sourceTree = "<group>";
 		};
+		99B067481F2F55DC0023C47E /* LocalNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				9961F2831F46E6AD003D8EFC /* LocalNetworkViewController.h */,
+				9961F2841F46E6AD003D8EFC /* LocalNetworkViewController.m */,
+				9961F2861F46E6B2003D8EFC /* Base */,
+				9961F2971F46E6ED003D8EFC /* Common */,
+				9961F2CE1F4AB8E5003D8EFC /* List */,
+				9961F2D61F4AB8FA003D8EFC /* Detail */,
+			);
+			name = LocalNetwork;
+			path = Sources/LocalNetwork;
+			sourceTree = "<group>";
+		};
+		99B067491F2F55DC0023C47E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				99B0674A1F2F55DC0023C47E /* NetworkViewController.h */,
+				99B0674B1F2F55DC0023C47E /* NetworkViewController.m */,
+				99B0674E1F2F55DC0023C47E /* NModel.h */,
+				99B0674F1F2F55DC0023C47E /* NModel.m */,
+				99B067501F2F55DC0023C47E /* NResponse.h */,
+				99B067511F2F55DC0023C47E /* NResponse.m */,
+				99B0674C1F2F55DC0023C47E /* NMockRequest.h */,
+				99B0674D1F2F55DC0023C47E /* NMockRequest.m */,
+				99B067521F2F55DC0023C47E /* NSomeModel.h */,
+				99B067531F2F55DC0023C47E /* NSomeModel.m */,
+			);
+			name = Network;
+			path = Sources/Network;
+			sourceTree = "<group>";
+		};
+		C63914DDA23FD0BC592326CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDF22E141BB39B23754CDD7F /* libPods-MHelloListData.a */,
+				AA8644FFE9CB327200803D28 /* libPods-MHelloListDataTests.a */,
+				9F24BC43D4243A17EEEDDC4C /* libPods-MHelloListDataUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +344,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99B067151F2EE3200023C47E /* Build configuration list for PBXNativeTarget "MHelloListData" */;
 			buildPhases = (
+				6767CD752EAB613C5C90EBC2 /* [CP] Check Pods Manifest.lock */,
 				99B066E41F2EE3200023C47E /* Sources */,
 				99B066E51F2EE3200023C47E /* Frameworks */,
 				99B066E61F2EE3200023C47E /* Resources */,
+				6211A99FB55C1F80FB966849 /* [CP] Embed Pods Frameworks */,
+				0DE303E66D7C830996943A1C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +364,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99B067181F2EE3200023C47E /* Build configuration list for PBXNativeTarget "MHelloListDataTests" */;
 			buildPhases = (
+				80AD79E7F43CDB3736FE44DD /* [CP] Check Pods Manifest.lock */,
 				99B066FD1F2EE3200023C47E /* Sources */,
 				99B066FE1F2EE3200023C47E /* Frameworks */,
 				99B066FF1F2EE3200023C47E /* Resources */,
+				CDBE29907250325CD09372ED /* [CP] Embed Pods Frameworks */,
+				2E399B172D3EBF27B7402078 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +385,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99B0671B1F2EE3200023C47E /* Build configuration list for PBXNativeTarget "MHelloListDataUITests" */;
 			buildPhases = (
+				070022719F11EC920CD0DB30 /* [CP] Check Pods Manifest.lock */,
 				99B067081F2EE3200023C47E /* Sources */,
 				99B067091F2EE3200023C47E /* Frameworks */,
 				99B0670A1F2EE3200023C47E /* Resources */,
+				404DD0BE534AD8E60423F5EE /* [CP] Embed Pods Frameworks */,
+				33AD874DB8E6512FF01AEE56 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,14 +477,167 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		070022719F11EC920CD0DB30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0DE303E66D7C830996943A1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MHelloListData/Pods-MHelloListData-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E399B172D3EBF27B7402078 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MHelloListDataTests/Pods-MHelloListDataTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33AD874DB8E6512FF01AEE56 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MHelloListDataUITests/Pods-MHelloListDataUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		404DD0BE534AD8E60423F5EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MHelloListDataUITests/Pods-MHelloListDataUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6211A99FB55C1F80FB966849 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MHelloListData/Pods-MHelloListData-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6767CD752EAB613C5C90EBC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		80AD79E7F43CDB3736FE44DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CDBE29907250325CD09372ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MHelloListDataTests/Pods-MHelloListDataTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		99B066E41F2EE3200023C47E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9961F2DF1F4AC460003D8EFC /* JSONRequestManager.m in Sources */,
+				9961F29B1F46E6ED003D8EFC /* Repo.m in Sources */,
 				99B066F31F2EE3200023C47E /* ViewController.m in Sources */,
 				99B066F01F2EE3200023C47E /* AppDelegate.m in Sources */,
+				9961F2E21F4AC472003D8EFC /* HTMLRequestManager.m in Sources */,
+				9961F2D41F4AB8E5003D8EFC /* OCStarListModel.m in Sources */,
+				99B067581F2F55DC0023C47E /* NSomeModel.m in Sources */,
+				9961F2851F46E6AD003D8EFC /* LocalNetworkViewController.m in Sources */,
 				99B066ED1F2EE3200023C47E /* main.m in Sources */,
+				9961F2DC1F4AB93A003D8EFC /* LNDetailModel.m in Sources */,
+				99B067551F2F55DC0023C47E /* NMockRequest.m in Sources */,
+				9961F2A71F497760003D8EFC /* LNRequest.m in Sources */,
+				99B067561F2F55DC0023C47E /* NModel.m in Sources */,
+				9961F2A41F497740003D8EFC /* LNRequestManager.m in Sources */,
+				9961F2931F46E6B2003D8EFC /* LNReturnData.m in Sources */,
+				99B067541F2F55DC0023C47E /* NetworkViewController.m in Sources */,
+				99B067571F2F55DC0023C47E /* NResponse.m in Sources */,
+				9961F2D91F4AB927003D8EFC /* LNListModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +786,7 @@
 		};
 		99B067161F2EE3200023C47E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33F2F29AEBF9088A697909BB /* Pods-MHelloListData.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LD9JLNUXTG;
@@ -439,6 +799,7 @@
 		};
 		99B067171F2EE3200023C47E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2822611CDAA7956C7EC58E06 /* Pods-MHelloListData.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LD9JLNUXTG;
@@ -451,6 +812,7 @@
 		};
 		99B067191F2EE3200023C47E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A881DF6762548DBB6035F8BC /* Pods-MHelloListDataTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = LD9JLNUXTG;
@@ -464,6 +826,7 @@
 		};
 		99B0671A1F2EE3200023C47E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87BBF8C1F70DA1EAA0995C11 /* Pods-MHelloListDataTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = LD9JLNUXTG;
@@ -477,6 +840,7 @@
 		};
 		99B0671C1F2EE3200023C47E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0694C8DF864584D9EA60A1F7 /* Pods-MHelloListDataUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = LD9JLNUXTG;
 				INFOPLIST_FILE = MHelloListDataUITests/Info.plist;
@@ -489,6 +853,7 @@
 		};
 		99B0671D1F2EE3200023C47E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29667CD68EC169A854D98263 /* Pods-MHelloListDataUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = LD9JLNUXTG;
 				INFOPLIST_FILE = MHelloListDataUITests/Info.plist;
