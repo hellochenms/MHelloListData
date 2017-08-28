@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		50968F7EA7AC36BCFF983226 /* libPods-MHelloListDataUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F24BC43D4243A17EEEDDC4C /* libPods-MHelloListDataUITests.a */; };
-		5729C3B047D852D7784E4BF7 /* libPods-MHelloListData.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF22E141BB39B23754CDD7F /* libPods-MHelloListData.a */; };
+		1A86838DA78B6473015DFA53 /* Pods_MHelloListDataUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322CEFBFE8C5F5A3F04B8EAE /* Pods_MHelloListDataUITests.framework */; };
+		54FC025AD189B130A2E46810 /* Pods_MHelloListData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53AE54DED0F759E8673296C /* Pods_MHelloListData.framework */; };
 		9961F2851F46E6AD003D8EFC /* LocalNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2841F46E6AD003D8EFC /* LocalNetworkViewController.m */; };
 		9961F2931F46E6B2003D8EFC /* LNReturnData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2891F46E6B2003D8EFC /* LNReturnData.m */; };
 		9961F29B1F46E6ED003D8EFC /* Repo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2991F46E6ED003D8EFC /* Repo.m */; };
@@ -32,7 +32,7 @@
 		99B067561F2F55DC0023C47E /* NModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B0674F1F2F55DC0023C47E /* NModel.m */; };
 		99B067571F2F55DC0023C47E /* NResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B067511F2F55DC0023C47E /* NResponse.m */; };
 		99B067581F2F55DC0023C47E /* NSomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B067531F2F55DC0023C47E /* NSomeModel.m */; };
-		F5BCE71053F88B45572E097F /* libPods-MHelloListDataTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8644FFE9CB327200803D28 /* libPods-MHelloListDataTests.a */; };
+		F84EAB0A9CA6178339C480DF /* Pods_MHelloListDataTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57373F66AF69303B290E70C0 /* Pods_MHelloListDataTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,9 @@
 		0694C8DF864584D9EA60A1F7 /* Pods-MHelloListDataUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHelloListDataUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MHelloListDataUITests/Pods-MHelloListDataUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2822611CDAA7956C7EC58E06 /* Pods-MHelloListData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHelloListData.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHelloListData/Pods-MHelloListData.release.xcconfig"; sourceTree = "<group>"; };
 		29667CD68EC169A854D98263 /* Pods-MHelloListDataUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHelloListDataUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHelloListDataUITests/Pods-MHelloListDataUITests.release.xcconfig"; sourceTree = "<group>"; };
+		322CEFBFE8C5F5A3F04B8EAE /* Pods_MHelloListDataUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHelloListDataUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F2F29AEBF9088A697909BB /* Pods-MHelloListData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHelloListData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MHelloListData/Pods-MHelloListData.debug.xcconfig"; sourceTree = "<group>"; };
+		57373F66AF69303B290E70C0 /* Pods_MHelloListDataTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHelloListDataTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87BBF8C1F70DA1EAA0995C11 /* Pods-MHelloListDataTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHelloListDataTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHelloListDataTests/Pods-MHelloListDataTests.release.xcconfig"; sourceTree = "<group>"; };
 		9961F2831F46E6AD003D8EFC /* LocalNetworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalNetworkViewController.h; sourceTree = "<group>"; };
 		9961F2841F46E6AD003D8EFC /* LocalNetworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalNetworkViewController.m; sourceTree = "<group>"; };
@@ -104,10 +106,8 @@
 		99B067511F2F55DC0023C47E /* NResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NResponse.m; sourceTree = "<group>"; };
 		99B067521F2F55DC0023C47E /* NSomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSomeModel.h; sourceTree = "<group>"; };
 		99B067531F2F55DC0023C47E /* NSomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSomeModel.m; sourceTree = "<group>"; };
-		9F24BC43D4243A17EEEDDC4C /* libPods-MHelloListDataUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MHelloListDataUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A881DF6762548DBB6035F8BC /* Pods-MHelloListDataTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHelloListDataTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MHelloListDataTests/Pods-MHelloListDataTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AA8644FFE9CB327200803D28 /* libPods-MHelloListDataTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MHelloListDataTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDF22E141BB39B23754CDD7F /* libPods-MHelloListData.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MHelloListData.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53AE54DED0F759E8673296C /* Pods_MHelloListData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHelloListData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5729C3B047D852D7784E4BF7 /* libPods-MHelloListData.a in Frameworks */,
+				54FC025AD189B130A2E46810 /* Pods_MHelloListData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,7 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5BCE71053F88B45572E097F /* libPods-MHelloListDataTests.a in Frameworks */,
+				F84EAB0A9CA6178339C480DF /* Pods_MHelloListDataTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50968F7EA7AC36BCFF983226 /* libPods-MHelloListDataUITests.a in Frameworks */,
+				1A86838DA78B6473015DFA53 /* Pods_MHelloListDataUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,9 +330,9 @@
 		C63914DDA23FD0BC592326CB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EDF22E141BB39B23754CDD7F /* libPods-MHelloListData.a */,
-				AA8644FFE9CB327200803D28 /* libPods-MHelloListDataTests.a */,
-				9F24BC43D4243A17EEEDDC4C /* libPods-MHelloListDataUITests.a */,
+				B53AE54DED0F759E8673296C /* Pods_MHelloListData.framework */,
+				57373F66AF69303B290E70C0 /* Pods_MHelloListDataTests.framework */,
+				322CEFBFE8C5F5A3F04B8EAE /* Pods_MHelloListDataUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

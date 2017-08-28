@@ -56,11 +56,11 @@
     return [NSString stringWithFormat:@"repos/%@/%@/readme", ownerName, repoName];
 }
 
-- (id)dataWithResponseData:(LNReturnData *)responseData {
-    if (![responseData.responseData isKindOfClass:[NSData class]]) {
+- (id)dataWithResponseData:(id)responseData {
+    if (![responseData isKindOfClass:[NSData class]]) {
         return nil;
     }
-    NSString *html = [[NSString alloc] initWithData:responseData.responseData encoding:NSUTF8StringEncoding];
+    NSString *html = [[NSString alloc] initWithData:responseData encoding:NSUTF8StringEncoding];
     
     return html;
 }
