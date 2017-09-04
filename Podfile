@@ -8,7 +8,9 @@ target 'MHelloListData' do
   # Pods for MHelloListData
   pod 'AFNetworking', '~> 3.0'
   pod 'YYModel'
-  pod 'FMDB', '~> 2.7'
+  pod 'WCDB'
+  pod 'FMDB'
+  
 
   target 'MHelloListDataTests' do
     inherit! :search_paths

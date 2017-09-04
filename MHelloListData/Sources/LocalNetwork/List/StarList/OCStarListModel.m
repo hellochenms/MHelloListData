@@ -9,9 +9,16 @@
 #import "OCStarListModel.h"
 #import "Repo.h"
 #import <YYModel/YYModel.h>
+#import "OCStarListDAO_WC.h"
+
+@interface OCStarListModel ()
+@property (nonatomic) OCStarListDAO_WC *dao;
+@end
 
 @implementation OCStarListModel
 
+#pragma mark - Override
+// Request
 - (NSString *)urlString {
     return @"search/repositories";
 }
@@ -32,6 +39,7 @@
               };
 }
 
+// Response
 - (id)dataWithResponseData:(id)responseData {
     if (![responseData isKindOfClass:[NSDictionary class]]) {
         return nil;
@@ -45,6 +53,64 @@
     NSArray<Repo*> *items = [NSArray yy_modelArrayWithClass:[Repo class] json:itemsJSON];
     
     return items;
+}
+
+- (NSString *)keyForData:(id)data {
+    if (![data isKindOfClass:[Repo class]]) {
+        return @"";
+    }
+    
+    NSString *key = [NSString stringWithFormat:@"%ld", ((Repo *)data).rID];
+    
+    return key;
+}
+
+// Cache
+- (NSArray *)fetchCacheData {
+    NSArray *repos = [self.dao selectReposOrderByStarCountLimit:20];
+    
+    return repos;
+}
+
+- (void)saveNewDatas:(NSArray *)datas {
+    if (!datas || [datas count] == 0) {
+        return;
+    }
+    
+    __block BOOL valid = YES;
+    [datas enumerateObjectsUsingBlock:^(Repo *  _Nonnull repo, NSUInteger idx, BOOL * _Nonnull stop) {
+        if (![repo isKindOfClass:[Repo class]]) {
+            valid = NO;
+            *stop = YES;
+        }
+    }];
+    
+    if (!valid) {
+        return;
+    }
+    
+    // 插入新数据
+    [self.dao insertOrReplaceRepos:datas];
+
+}
+
+- (NSInteger)cacheDataCount {
+    NSInteger count = [self.dao selectRepoCount];
+    
+    return count;
+}
+
+
+- (void)cleanOverflowDatas:(NSInteger)maxCount {
+    [self.dao deleteOverflowRepos:maxCount];
+}
+
+#pragma mark - Getter
+- (OCStarListDAO_WC *)dao {
+    if(!_dao){
+        _dao = [[OCStarListDAO_WC alloc] init];
+    }
+    return _dao;
 }
 
 @end

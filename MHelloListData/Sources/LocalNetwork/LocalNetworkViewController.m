@@ -7,9 +7,9 @@
 //
 
 #import "LocalNetworkViewController.h"
-#import "LNListModel.h"
+#import "ListModel.h"
 #import "OCStarListModel.h"
-#import "LNDetailModel.h"
+#import "RepoDetailModel.h"
 
 @interface LocalNetworkViewController ()
 @property (nonatomic) UIButton *refreshButton;
@@ -17,7 +17,7 @@
 @property (nonatomic) UIButton *loadMoreButton;
 @property (nonatomic) UIButton *refreshDetailButton;
 @property (nonatomic) OCStarListModel *model;
-@property (nonatomic) LNDetailModel *detailModel;
+@property (nonatomic) RepoDetailModel *detailModel;
 @property (nonatomic) UIActivityIndicatorView *loadingView;
 @end
 
@@ -152,18 +152,18 @@
     if(!_model){
         _model = [[OCStarListModel alloc] init];
         __weak typeof(self) weakSelf = self;
-        _model.onModelDidFetchDataFromCacheBlock = ^(LNListModel *model, BOOL isRequesting) {
-            NSLog(@"【chenms】model.datas:%@  %s", model.datas, __func__);
+        _model.onModelDidFetchDataFromCacheBlock = ^(ListModel *model, BOOL isRequesting) {
+            NSLog(@"【chenms】【onModelDidFetchDataFromCacheBlock】model.datas.count:%ld isRequesting:%d  %s", [model.datas count], isRequesting, __func__);
             if (!isRequesting) {
                 [weakSelf stopLoadingUI];
             }
         };
-        _model.onModelRequestDidFinishBlock = ^(LNListModel *model) {
-            NSLog(@"【chenms】model.datas:%@  %s", model.datas, __func__);
+        _model.onModelRequestDidFinishBlock = ^(ListModel *model) {
+            NSLog(@"【chenms】【onModelRequestDidFinishBlock】model.datas.count:%ld  %s", [model.datas count], __func__);
             [weakSelf stopLoadingUI];
         };
-        _model.onModelRequestDidFailBlock = ^(LNListModel *model) {
-            NSLog(@"【chenms】  %s", __func__);
+        _model.onModelRequestDidFailBlock = ^(ListModel *model) {
+            NSLog(@"【chenms】【onModelRequestDidFailBlock】  %s", __func__);
             [weakSelf stopLoadingUI];
         };
     }
@@ -171,16 +171,16 @@
     return _model;
 }
 
--(LNDetailModel *)detailModel {
+-(RepoDetailModel *)detailModel {
     if(!_detailModel){
-        _detailModel = [[LNDetailModel alloc] init];
+        _detailModel = [[RepoDetailModel alloc] init];
         __weak typeof(self) weakSelf = self;
-        _detailModel.onModelRequestDidFinishBlock = ^(LNDetailModel *model) {
-            NSLog(@"【chenms】model.datas:%@  %s", model.detailHTML, __func__);
+        _detailModel.onModelRequestDidFinishBlock = ^(RepoDetailModel *model) {
+            NSLog(@"【chenms】【onModelRequestDidFinishBlock】model.datas:%@  %s", model.detailHTML, __func__);
             [weakSelf stopLoadingUI];
         };
-        _detailModel.onModelRequestDidFailBlock = ^(LNDetailModel *model) {
-            NSLog(@"【chenms】  %s", __func__);
+        _detailModel.onModelRequestDidFailBlock = ^(RepoDetailModel *model) {
+            NSLog(@"【chenms】【onModelRequestDidFailBlock】  %s", __func__);
             [weakSelf stopLoadingUI];
         };
     }

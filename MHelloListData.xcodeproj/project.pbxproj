@@ -9,14 +9,16 @@
 /* Begin PBXBuildFile section */
 		1A86838DA78B6473015DFA53 /* Pods_MHelloListDataUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322CEFBFE8C5F5A3F04B8EAE /* Pods_MHelloListDataUITests.framework */; };
 		54FC025AD189B130A2E46810 /* Pods_MHelloListData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53AE54DED0F759E8673296C /* Pods_MHelloListData.framework */; };
+		993171901F5D557600F27CA6 /* DBManager_FM.m in Sources */ = {isa = PBXBuildFile; fileRef = 9931718F1F5D557600F27CA6 /* DBManager_FM.m */; };
+		993171931F5D6F7700F27CA6 /* OCStarListDAO_FM.m in Sources */ = {isa = PBXBuildFile; fileRef = 993171921F5D6F7700F27CA6 /* OCStarListDAO_FM.m */; };
 		9961F2851F46E6AD003D8EFC /* LocalNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2841F46E6AD003D8EFC /* LocalNetworkViewController.m */; };
-		9961F2931F46E6B2003D8EFC /* LNReturnData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2891F46E6B2003D8EFC /* LNReturnData.m */; };
-		9961F29B1F46E6ED003D8EFC /* Repo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2991F46E6ED003D8EFC /* Repo.m */; };
-		9961F2A41F497740003D8EFC /* LNRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2A31F497740003D8EFC /* LNRequestManager.m */; };
-		9961F2A71F497760003D8EFC /* LNRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2A61F497760003D8EFC /* LNRequest.m */; };
+		9961F2931F46E6B2003D8EFC /* ReturnData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2891F46E6B2003D8EFC /* ReturnData.m */; };
+		9961F29B1F46E6ED003D8EFC /* Repo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2991F46E6ED003D8EFC /* Repo.mm */; };
+		9961F2A41F497740003D8EFC /* RequestManager_AFN.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2A31F497740003D8EFC /* RequestManager_AFN.m */; };
+		9961F2A71F497760003D8EFC /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2A61F497760003D8EFC /* Request.m */; };
 		9961F2D41F4AB8E5003D8EFC /* OCStarListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2D11F4AB8E5003D8EFC /* OCStarListModel.m */; };
-		9961F2D91F4AB927003D8EFC /* LNListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2D81F4AB927003D8EFC /* LNListModel.m */; };
-		9961F2DC1F4AB93A003D8EFC /* LNDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2DB1F4AB93A003D8EFC /* LNDetailModel.m */; };
+		9961F2D91F4AB927003D8EFC /* ListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2D81F4AB927003D8EFC /* ListModel.m */; };
+		9961F2DC1F4AB93A003D8EFC /* RepoDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2DB1F4AB93A003D8EFC /* RepoDetailModel.m */; };
 		9961F2DF1F4AC460003D8EFC /* JSONRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2DE1F4AC460003D8EFC /* JSONRequestManager.m */; };
 		9961F2E21F4AC472003D8EFC /* HTMLRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2E11F4AC472003D8EFC /* HTMLRequestManager.m */; };
 		99B066ED1F2EE3200023C47E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B066EC1F2EE3200023C47E /* main.m */; };
@@ -27,11 +29,9 @@
 		99B066FB1F2EE3200023C47E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B066F91F2EE3200023C47E /* LaunchScreen.storyboard */; };
 		99B067061F2EE3200023C47E /* MHelloListDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B067051F2EE3200023C47E /* MHelloListDataTests.m */; };
 		99B067111F2EE3200023C47E /* MHelloListDataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B067101F2EE3200023C47E /* MHelloListDataUITests.m */; };
-		99B067541F2F55DC0023C47E /* NetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B0674B1F2F55DC0023C47E /* NetworkViewController.m */; };
-		99B067551F2F55DC0023C47E /* NMockRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B0674D1F2F55DC0023C47E /* NMockRequest.m */; };
-		99B067561F2F55DC0023C47E /* NModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B0674F1F2F55DC0023C47E /* NModel.m */; };
-		99B067571F2F55DC0023C47E /* NResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B067511F2F55DC0023C47E /* NResponse.m */; };
-		99B067581F2F55DC0023C47E /* NSomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B067531F2F55DC0023C47E /* NSomeModel.m */; };
+		99E12C3A1F594B6600B1701B /* OCStarListDAO_WC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 99E12C391F594B6600B1701B /* OCStarListDAO_WC.mm */; };
+		99E12C431F594CA300B1701B /* DBConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E12C401F594CA300B1701B /* DBConstants.m */; };
+		99E12C441F594CA300B1701B /* DBManager_WC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 99E12C421F594CA300B1701B /* DBManager_WC.mm */; };
 		F84EAB0A9CA6178339C480DF /* Pods_MHelloListDataTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57373F66AF69303B290E70C0 /* Pods_MHelloListDataTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,22 +60,27 @@
 		33F2F29AEBF9088A697909BB /* Pods-MHelloListData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHelloListData.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MHelloListData/Pods-MHelloListData.debug.xcconfig"; sourceTree = "<group>"; };
 		57373F66AF69303B290E70C0 /* Pods_MHelloListDataTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHelloListDataTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87BBF8C1F70DA1EAA0995C11 /* Pods-MHelloListDataTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHelloListDataTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHelloListDataTests/Pods-MHelloListDataTests.release.xcconfig"; sourceTree = "<group>"; };
+		993171881F5D06E100F27CA6 /* Repo+WCTTableCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Repo+WCTTableCoding.h"; sourceTree = "<group>"; };
+		9931718E1F5D557600F27CA6 /* DBManager_FM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager_FM.h; sourceTree = "<group>"; };
+		9931718F1F5D557600F27CA6 /* DBManager_FM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager_FM.m; sourceTree = "<group>"; };
+		993171911F5D6F7700F27CA6 /* OCStarListDAO_FM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCStarListDAO_FM.h; sourceTree = "<group>"; };
+		993171921F5D6F7700F27CA6 /* OCStarListDAO_FM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCStarListDAO_FM.m; sourceTree = "<group>"; };
 		9961F2831F46E6AD003D8EFC /* LocalNetworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalNetworkViewController.h; sourceTree = "<group>"; };
 		9961F2841F46E6AD003D8EFC /* LocalNetworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalNetworkViewController.m; sourceTree = "<group>"; };
-		9961F2881F46E6B2003D8EFC /* LNReturnData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNReturnData.h; sourceTree = "<group>"; };
-		9961F2891F46E6B2003D8EFC /* LNReturnData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNReturnData.m; sourceTree = "<group>"; };
+		9961F2881F46E6B2003D8EFC /* ReturnData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReturnData.h; sourceTree = "<group>"; };
+		9961F2891F46E6B2003D8EFC /* ReturnData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReturnData.m; sourceTree = "<group>"; };
 		9961F2981F46E6ED003D8EFC /* Repo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repo.h; sourceTree = "<group>"; };
-		9961F2991F46E6ED003D8EFC /* Repo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repo.m; sourceTree = "<group>"; };
-		9961F2A21F49773F003D8EFC /* LNRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNRequestManager.h; sourceTree = "<group>"; };
-		9961F2A31F497740003D8EFC /* LNRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNRequestManager.m; sourceTree = "<group>"; };
-		9961F2A51F497760003D8EFC /* LNRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNRequest.h; sourceTree = "<group>"; };
-		9961F2A61F497760003D8EFC /* LNRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNRequest.m; sourceTree = "<group>"; };
+		9961F2991F46E6ED003D8EFC /* Repo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Repo.mm; sourceTree = "<group>"; };
+		9961F2A21F49773F003D8EFC /* RequestManager_AFN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestManager_AFN.h; sourceTree = "<group>"; };
+		9961F2A31F497740003D8EFC /* RequestManager_AFN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestManager_AFN.m; sourceTree = "<group>"; };
+		9961F2A51F497760003D8EFC /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		9961F2A61F497760003D8EFC /* Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
 		9961F2D01F4AB8E5003D8EFC /* OCStarListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCStarListModel.h; sourceTree = "<group>"; };
 		9961F2D11F4AB8E5003D8EFC /* OCStarListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCStarListModel.m; sourceTree = "<group>"; };
-		9961F2D71F4AB927003D8EFC /* LNListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNListModel.h; sourceTree = "<group>"; };
-		9961F2D81F4AB927003D8EFC /* LNListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNListModel.m; sourceTree = "<group>"; };
-		9961F2DA1F4AB93A003D8EFC /* LNDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNDetailModel.h; sourceTree = "<group>"; };
-		9961F2DB1F4AB93A003D8EFC /* LNDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LNDetailModel.m; sourceTree = "<group>"; };
+		9961F2D71F4AB927003D8EFC /* ListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListModel.h; sourceTree = "<group>"; };
+		9961F2D81F4AB927003D8EFC /* ListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListModel.m; sourceTree = "<group>"; };
+		9961F2DA1F4AB93A003D8EFC /* RepoDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepoDetailModel.h; sourceTree = "<group>"; };
+		9961F2DB1F4AB93A003D8EFC /* RepoDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepoDetailModel.m; sourceTree = "<group>"; };
 		9961F2DD1F4AC460003D8EFC /* JSONRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONRequestManager.h; sourceTree = "<group>"; };
 		9961F2DE1F4AC460003D8EFC /* JSONRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONRequestManager.m; sourceTree = "<group>"; };
 		9961F2E01F4AC472003D8EFC /* HTMLRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLRequestManager.h; sourceTree = "<group>"; };
@@ -96,16 +101,12 @@
 		99B0670C1F2EE3200023C47E /* MHelloListDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MHelloListDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B067101F2EE3200023C47E /* MHelloListDataUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHelloListDataUITests.m; sourceTree = "<group>"; };
 		99B067121F2EE3200023C47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		99B0674A1F2F55DC0023C47E /* NetworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkViewController.h; sourceTree = "<group>"; };
-		99B0674B1F2F55DC0023C47E /* NetworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkViewController.m; sourceTree = "<group>"; };
-		99B0674C1F2F55DC0023C47E /* NMockRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMockRequest.h; sourceTree = "<group>"; };
-		99B0674D1F2F55DC0023C47E /* NMockRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMockRequest.m; sourceTree = "<group>"; };
-		99B0674E1F2F55DC0023C47E /* NModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NModel.h; sourceTree = "<group>"; };
-		99B0674F1F2F55DC0023C47E /* NModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NModel.m; sourceTree = "<group>"; };
-		99B067501F2F55DC0023C47E /* NResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NResponse.h; sourceTree = "<group>"; };
-		99B067511F2F55DC0023C47E /* NResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NResponse.m; sourceTree = "<group>"; };
-		99B067521F2F55DC0023C47E /* NSomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSomeModel.h; sourceTree = "<group>"; };
-		99B067531F2F55DC0023C47E /* NSomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSomeModel.m; sourceTree = "<group>"; };
+		99E12C381F594B6600B1701B /* OCStarListDAO_WC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCStarListDAO_WC.h; sourceTree = "<group>"; };
+		99E12C391F594B6600B1701B /* OCStarListDAO_WC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OCStarListDAO_WC.mm; sourceTree = "<group>"; };
+		99E12C3F1F594CA300B1701B /* DBConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBConstants.h; sourceTree = "<group>"; };
+		99E12C401F594CA300B1701B /* DBConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBConstants.m; sourceTree = "<group>"; };
+		99E12C411F594CA300B1701B /* DBManager_WC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager_WC.h; sourceTree = "<group>"; };
+		99E12C421F594CA300B1701B /* DBManager_WC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DBManager_WC.mm; sourceTree = "<group>"; };
 		A881DF6762548DBB6035F8BC /* Pods-MHelloListDataTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHelloListDataTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MHelloListDataTests/Pods-MHelloListDataTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B53AE54DED0F759E8673296C /* Pods_MHelloListData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHelloListData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -155,7 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				9961F28F1F46E6B2003D8EFC /* Request */,
-				9961F2921F46E6B2003D8EFC /* Storage */,
+				99E12C3E1F594CA200B1701B /* DB */,
 				9961F2871F46E6B2003D8EFC /* Data */,
 			);
 			path = Base;
@@ -164,8 +165,8 @@
 		9961F2871F46E6B2003D8EFC /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				9961F2881F46E6B2003D8EFC /* LNReturnData.h */,
-				9961F2891F46E6B2003D8EFC /* LNReturnData.m */,
+				9961F2881F46E6B2003D8EFC /* ReturnData.h */,
+				9961F2891F46E6B2003D8EFC /* ReturnData.m */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -173,30 +174,24 @@
 		9961F28F1F46E6B2003D8EFC /* Request */ = {
 			isa = PBXGroup;
 			children = (
-				9961F2A21F49773F003D8EFC /* LNRequestManager.h */,
-				9961F2A31F497740003D8EFC /* LNRequestManager.m */,
+				9961F2A21F49773F003D8EFC /* RequestManager_AFN.h */,
+				9961F2A31F497740003D8EFC /* RequestManager_AFN.m */,
 				9961F2DD1F4AC460003D8EFC /* JSONRequestManager.h */,
 				9961F2DE1F4AC460003D8EFC /* JSONRequestManager.m */,
 				9961F2E01F4AC472003D8EFC /* HTMLRequestManager.h */,
 				9961F2E11F4AC472003D8EFC /* HTMLRequestManager.m */,
-				9961F2A51F497760003D8EFC /* LNRequest.h */,
-				9961F2A61F497760003D8EFC /* LNRequest.m */,
+				9961F2A51F497760003D8EFC /* Request.h */,
+				9961F2A61F497760003D8EFC /* Request.m */,
 			);
 			path = Request;
-			sourceTree = "<group>";
-		};
-		9961F2921F46E6B2003D8EFC /* Storage */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Storage;
 			sourceTree = "<group>";
 		};
 		9961F2971F46E6ED003D8EFC /* Common */ = {
 			isa = PBXGroup;
 			children = (
 				9961F2981F46E6ED003D8EFC /* Repo.h */,
-				9961F2991F46E6ED003D8EFC /* Repo.m */,
+				9961F2991F46E6ED003D8EFC /* Repo.mm */,
+				993171881F5D06E100F27CA6 /* Repo+WCTTableCoding.h */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -204,8 +199,8 @@
 		9961F2CE1F4AB8E5003D8EFC /* List */ = {
 			isa = PBXGroup;
 			children = (
-				9961F2D71F4AB927003D8EFC /* LNListModel.h */,
-				9961F2D81F4AB927003D8EFC /* LNListModel.m */,
+				9961F2D71F4AB927003D8EFC /* ListModel.h */,
+				9961F2D81F4AB927003D8EFC /* ListModel.m */,
 				9961F2CF1F4AB8E5003D8EFC /* StarList */,
 			);
 			path = List;
@@ -216,6 +211,10 @@
 			children = (
 				9961F2D01F4AB8E5003D8EFC /* OCStarListModel.h */,
 				9961F2D11F4AB8E5003D8EFC /* OCStarListModel.m */,
+				99E12C381F594B6600B1701B /* OCStarListDAO_WC.h */,
+				99E12C391F594B6600B1701B /* OCStarListDAO_WC.mm */,
+				993171911F5D6F7700F27CA6 /* OCStarListDAO_FM.h */,
+				993171921F5D6F7700F27CA6 /* OCStarListDAO_FM.m */,
 			);
 			path = StarList;
 			sourceTree = "<group>";
@@ -223,8 +222,8 @@
 		9961F2D61F4AB8FA003D8EFC /* Detail */ = {
 			isa = PBXGroup;
 			children = (
-				9961F2DA1F4AB93A003D8EFC /* LNDetailModel.h */,
-				9961F2DB1F4AB93A003D8EFC /* LNDetailModel.m */,
+				9961F2DA1F4AB93A003D8EFC /* RepoDetailModel.h */,
+				9961F2DB1F4AB93A003D8EFC /* RepoDetailModel.m */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -259,7 +258,6 @@
 				99B066F11F2EE3200023C47E /* ViewController.h */,
 				99B066F21F2EE3200023C47E /* ViewController.m */,
 				99B066F41F2EE3200023C47E /* Main.storyboard */,
-				99B067491F2F55DC0023C47E /* Network */,
 				99B067481F2F55DC0023C47E /* LocalNetwork */,
 				99B066F71F2EE3200023C47E /* Assets.xcassets */,
 				99B066F91F2EE3200023C47E /* LaunchScreen.storyboard */,
@@ -309,22 +307,17 @@
 			path = Sources/LocalNetwork;
 			sourceTree = "<group>";
 		};
-		99B067491F2F55DC0023C47E /* Network */ = {
+		99E12C3E1F594CA200B1701B /* DB */ = {
 			isa = PBXGroup;
 			children = (
-				99B0674A1F2F55DC0023C47E /* NetworkViewController.h */,
-				99B0674B1F2F55DC0023C47E /* NetworkViewController.m */,
-				99B0674E1F2F55DC0023C47E /* NModel.h */,
-				99B0674F1F2F55DC0023C47E /* NModel.m */,
-				99B067501F2F55DC0023C47E /* NResponse.h */,
-				99B067511F2F55DC0023C47E /* NResponse.m */,
-				99B0674C1F2F55DC0023C47E /* NMockRequest.h */,
-				99B0674D1F2F55DC0023C47E /* NMockRequest.m */,
-				99B067521F2F55DC0023C47E /* NSomeModel.h */,
-				99B067531F2F55DC0023C47E /* NSomeModel.m */,
+				99E12C411F594CA300B1701B /* DBManager_WC.h */,
+				99E12C421F594CA300B1701B /* DBManager_WC.mm */,
+				9931718E1F5D557600F27CA6 /* DBManager_FM.h */,
+				9931718F1F5D557600F27CA6 /* DBManager_FM.m */,
+				99E12C3F1F594CA300B1701B /* DBConstants.h */,
+				99E12C401F594CA300B1701B /* DBConstants.m */,
 			);
-			name = Network;
-			path = Sources/Network;
+			path = DB;
 			sourceTree = "<group>";
 		};
 		C63914DDA23FD0BC592326CB /* Frameworks */ = {
@@ -620,24 +613,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99E12C431F594CA300B1701B /* DBConstants.m in Sources */,
+				99E12C441F594CA300B1701B /* DBManager_WC.mm in Sources */,
 				9961F2DF1F4AC460003D8EFC /* JSONRequestManager.m in Sources */,
-				9961F29B1F46E6ED003D8EFC /* Repo.m in Sources */,
+				9961F29B1F46E6ED003D8EFC /* Repo.mm in Sources */,
 				99B066F31F2EE3200023C47E /* ViewController.m in Sources */,
+				993171901F5D557600F27CA6 /* DBManager_FM.m in Sources */,
+				99E12C3A1F594B6600B1701B /* OCStarListDAO_WC.mm in Sources */,
 				99B066F01F2EE3200023C47E /* AppDelegate.m in Sources */,
 				9961F2E21F4AC472003D8EFC /* HTMLRequestManager.m in Sources */,
 				9961F2D41F4AB8E5003D8EFC /* OCStarListModel.m in Sources */,
-				99B067581F2F55DC0023C47E /* NSomeModel.m in Sources */,
 				9961F2851F46E6AD003D8EFC /* LocalNetworkViewController.m in Sources */,
 				99B066ED1F2EE3200023C47E /* main.m in Sources */,
-				9961F2DC1F4AB93A003D8EFC /* LNDetailModel.m in Sources */,
-				99B067551F2F55DC0023C47E /* NMockRequest.m in Sources */,
-				9961F2A71F497760003D8EFC /* LNRequest.m in Sources */,
-				99B067561F2F55DC0023C47E /* NModel.m in Sources */,
-				9961F2A41F497740003D8EFC /* LNRequestManager.m in Sources */,
-				9961F2931F46E6B2003D8EFC /* LNReturnData.m in Sources */,
-				99B067541F2F55DC0023C47E /* NetworkViewController.m in Sources */,
-				99B067571F2F55DC0023C47E /* NResponse.m in Sources */,
-				9961F2D91F4AB927003D8EFC /* LNListModel.m in Sources */,
+				9961F2DC1F4AB93A003D8EFC /* RepoDetailModel.m in Sources */,
+				993171931F5D6F7700F27CA6 /* OCStarListDAO_FM.m in Sources */,
+				9961F2A71F497760003D8EFC /* Request.m in Sources */,
+				9961F2A41F497740003D8EFC /* RequestManager_AFN.m in Sources */,
+				9961F2931F46E6B2003D8EFC /* ReturnData.m in Sources */,
+				9961F2D91F4AB927003D8EFC /* ListModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

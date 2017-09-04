@@ -6,8 +6,8 @@
 //  Copyright © 2017年 hellochenms. All rights reserved.
 //
 
-#import "LNListModel.h"
+#import "ListModel.h"
 
-@interface OCStarListModel : LNListModel
+@interface OCStarListModel : ListModel
 
 @end

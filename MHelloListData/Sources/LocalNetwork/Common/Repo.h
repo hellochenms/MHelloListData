@@ -10,7 +10,7 @@
 #import <YYModel/YYModel.h>
 
 @interface Repo : NSObject
-@property (nonatomic) NSInteger starID;
+@property (nonatomic) NSInteger rID;
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic) NSInteger starCount;
 @property (nonatomic, copy) NSString *desc;

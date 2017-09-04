@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "NetworkViewController.h"
 #import "LocalNetworkViewController.h"
 
 @interface ViewController (Table)<UITableViewDataSource, UITableViewDelegate>
@@ -60,8 +59,7 @@
 @implementation ViewController (Table)
 #pragma mark - Init
 - (void)initDatas {
-    self.datas = @[@[@"Network", [NetworkViewController class]],
-                   @[@"LocalNetwork", [LocalNetworkViewController class]],
+    self.datas = @[@[@"LocalNetwork", [LocalNetworkViewController class]],
                    ];
 }
 

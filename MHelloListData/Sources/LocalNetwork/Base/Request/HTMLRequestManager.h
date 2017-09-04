@@ -6,8 +6,8 @@
 //  Copyright © 2017年 hellochenms. All rights reserved.
 //
 
-#import "LNRequestManager.h"
+#import "RequestManager_AFN.h"
 
-@interface HTMLRequestManager : LNRequestManager
+@interface HTMLRequestManager : RequestManager_AFN
 
 @end
