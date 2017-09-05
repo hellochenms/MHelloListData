@@ -10,9 +10,11 @@
 #import "Repo.h"
 #import <YYModel/YYModel.h>
 #import "OCStarListDAO_WC.h"
+#import "OCStarListDAO_FM_SQL.h"
 
 @interface OCStarListModel ()
-@property (nonatomic) OCStarListDAO_WC *dao;
+//@property (nonatomic) OCStarListDAO_WC *dao;
+@property (nonatomic) OCStarListDAO_FM_SQL *dao;
 @end
 
 @implementation OCStarListModel
@@ -106,9 +108,16 @@
 }
 
 #pragma mark - Getter
-- (OCStarListDAO_WC *)dao {
+//- (OCStarListDAO_WC *)dao {
+//    if(!_dao){
+//        _dao = [[OCStarListDAO_WC alloc] init];
+//    }
+//    return _dao;
+//}
+
+- (OCStarListDAO_FM_SQL *)dao {
     if(!_dao){
-        _dao = [[OCStarListDAO_WC alloc] init];
+        _dao = [[OCStarListDAO_FM_SQL alloc] init];
     }
     return _dao;
 }

@@ -21,7 +21,7 @@ WCDB_SYNTHESIZE(Repo, ownerAvatarURLString)
 WCDB_SYNTHESIZE(Repo, updateTime)
 
 WCDB_PRIMARY(Repo, rID)
-WCDB_INDEX(Repo, "_index", rID)
+WCDB_INDEX(Repo, "_index", rID) // TableName_index
 WCDB_INDEX(Repo, "_index", starCount)
 
 + (NSDictionary *)modelCustomPropertyMapper {

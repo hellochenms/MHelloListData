@@ -63,11 +63,12 @@ static NSTimeInterval const kExpiredTimeInterval = 10;
     
     // 选择策略
     if ([self.datas count] == 0) {
-        NSArray *data = [self fetchCacheData];
-        if (data && [data isKindOfClass:[NSArray class]]) {
+        NSArray *datas = [self fetchCacheData];
+        if (datas && [datas isKindOfClass:[NSArray class]]) {
             ReturnData *cacheData = [ReturnData new];
-            cacheData.data = data;
+            cacheData.data = datas;
             cacheData.code = ReturnDataCodeLocalOKRequesting;
+            self.datas = [NSMutableArray arrayWithArray:datas];
             [self didReceivedData:cacheData];
         }
         self.requestCount = ListModelRequestCountBig;

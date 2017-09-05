@@ -16,7 +16,7 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        BOOL success = [[DBManager_WC sharedInstance].database createTableAndIndexesOfName:kTableName_oc_star withClass:Repo.class];
+        [[DBManager_WC sharedInstance].database createTableAndIndexesOfName:kTableName_oc_star withClass:Repo.class];
     }
     
     return self;

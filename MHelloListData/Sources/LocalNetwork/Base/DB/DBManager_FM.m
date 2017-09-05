@@ -37,6 +37,14 @@
 - (NSString *)path {
     NSString *path = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject];
     path = [path stringByAppendingPathComponent:@"db"];
+    BOOL isDir = NO;
+    BOOL isExists = [[NSFileManager defaultManager] fileExistsAtPath:path isDirectory:&isDir];
+    if (!isExists || !isDir) {
+        [[NSFileManager defaultManager] createDirectoryAtPath:path
+                                  withIntermediateDirectories:YES
+                                                   attributes:nil
+                                                        error:nil];
+    }
     path = [path stringByAppendingPathComponent:@"default.sqlite"];
     
     return path;

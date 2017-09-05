@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Repo.h"
 
-@interface OCStarListDAO_FM : NSObject
+@interface OCStarListDAO_FM_SQL : NSObject
 - (NSArray<Repo *> *)selectReposOrderByStarCountLimit:(NSInteger)limit;
 - (BOOL)insertOrReplaceRepos:(NSArray<Repo *> *)repos;
 - (NSInteger)selectRepoCount;

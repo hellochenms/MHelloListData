@@ -10,7 +10,8 @@
 		1A86838DA78B6473015DFA53 /* Pods_MHelloListDataUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322CEFBFE8C5F5A3F04B8EAE /* Pods_MHelloListDataUITests.framework */; };
 		54FC025AD189B130A2E46810 /* Pods_MHelloListData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53AE54DED0F759E8673296C /* Pods_MHelloListData.framework */; };
 		993171901F5D557600F27CA6 /* DBManager_FM.m in Sources */ = {isa = PBXBuildFile; fileRef = 9931718F1F5D557600F27CA6 /* DBManager_FM.m */; };
-		993171931F5D6F7700F27CA6 /* OCStarListDAO_FM.m in Sources */ = {isa = PBXBuildFile; fileRef = 993171921F5D6F7700F27CA6 /* OCStarListDAO_FM.m */; };
+		993171931F5D6F7700F27CA6 /* OCStarListDAO_FM_SQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 993171921F5D6F7700F27CA6 /* OCStarListDAO_FM_SQL.m */; };
+		993171961F5E714F00F27CA6 /* Repo+FM_SQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 993171951F5E714F00F27CA6 /* Repo+FM_SQL.m */; };
 		9961F2851F46E6AD003D8EFC /* LocalNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2841F46E6AD003D8EFC /* LocalNetworkViewController.m */; };
 		9961F2931F46E6B2003D8EFC /* ReturnData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2891F46E6B2003D8EFC /* ReturnData.m */; };
 		9961F29B1F46E6ED003D8EFC /* Repo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2991F46E6ED003D8EFC /* Repo.mm */; };
@@ -63,8 +64,10 @@
 		993171881F5D06E100F27CA6 /* Repo+WCTTableCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Repo+WCTTableCoding.h"; sourceTree = "<group>"; };
 		9931718E1F5D557600F27CA6 /* DBManager_FM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager_FM.h; sourceTree = "<group>"; };
 		9931718F1F5D557600F27CA6 /* DBManager_FM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager_FM.m; sourceTree = "<group>"; };
-		993171911F5D6F7700F27CA6 /* OCStarListDAO_FM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCStarListDAO_FM.h; sourceTree = "<group>"; };
-		993171921F5D6F7700F27CA6 /* OCStarListDAO_FM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCStarListDAO_FM.m; sourceTree = "<group>"; };
+		993171911F5D6F7700F27CA6 /* OCStarListDAO_FM_SQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCStarListDAO_FM_SQL.h; sourceTree = "<group>"; };
+		993171921F5D6F7700F27CA6 /* OCStarListDAO_FM_SQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCStarListDAO_FM_SQL.m; sourceTree = "<group>"; };
+		993171941F5E714F00F27CA6 /* Repo+FM_SQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Repo+FM_SQL.h"; sourceTree = "<group>"; };
+		993171951F5E714F00F27CA6 /* Repo+FM_SQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Repo+FM_SQL.m"; sourceTree = "<group>"; };
 		9961F2831F46E6AD003D8EFC /* LocalNetworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalNetworkViewController.h; sourceTree = "<group>"; };
 		9961F2841F46E6AD003D8EFC /* LocalNetworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalNetworkViewController.m; sourceTree = "<group>"; };
 		9961F2881F46E6B2003D8EFC /* ReturnData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReturnData.h; sourceTree = "<group>"; };
@@ -192,6 +195,8 @@
 				9961F2981F46E6ED003D8EFC /* Repo.h */,
 				9961F2991F46E6ED003D8EFC /* Repo.mm */,
 				993171881F5D06E100F27CA6 /* Repo+WCTTableCoding.h */,
+				993171941F5E714F00F27CA6 /* Repo+FM_SQL.h */,
+				993171951F5E714F00F27CA6 /* Repo+FM_SQL.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -213,8 +218,8 @@
 				9961F2D11F4AB8E5003D8EFC /* OCStarListModel.m */,
 				99E12C381F594B6600B1701B /* OCStarListDAO_WC.h */,
 				99E12C391F594B6600B1701B /* OCStarListDAO_WC.mm */,
-				993171911F5D6F7700F27CA6 /* OCStarListDAO_FM.h */,
-				993171921F5D6F7700F27CA6 /* OCStarListDAO_FM.m */,
+				993171911F5D6F7700F27CA6 /* OCStarListDAO_FM_SQL.h */,
+				993171921F5D6F7700F27CA6 /* OCStarListDAO_FM_SQL.m */,
 			);
 			path = StarList;
 			sourceTree = "<group>";
@@ -619,6 +624,7 @@
 				9961F29B1F46E6ED003D8EFC /* Repo.mm in Sources */,
 				99B066F31F2EE3200023C47E /* ViewController.m in Sources */,
 				993171901F5D557600F27CA6 /* DBManager_FM.m in Sources */,
+				993171961F5E714F00F27CA6 /* Repo+FM_SQL.m in Sources */,
 				99E12C3A1F594B6600B1701B /* OCStarListDAO_WC.mm in Sources */,
 				99B066F01F2EE3200023C47E /* AppDelegate.m in Sources */,
 				9961F2E21F4AC472003D8EFC /* HTMLRequestManager.m in Sources */,
@@ -626,7 +632,7 @@
 				9961F2851F46E6AD003D8EFC /* LocalNetworkViewController.m in Sources */,
 				99B066ED1F2EE3200023C47E /* main.m in Sources */,
 				9961F2DC1F4AB93A003D8EFC /* RepoDetailModel.m in Sources */,
-				993171931F5D6F7700F27CA6 /* OCStarListDAO_FM.m in Sources */,
+				993171931F5D6F7700F27CA6 /* OCStarListDAO_FM_SQL.m in Sources */,
 				9961F2A71F497760003D8EFC /* Request.m in Sources */,
 				9961F2A41F497740003D8EFC /* RequestManager_AFN.m in Sources */,
 				9961F2931F46E6B2003D8EFC /* ReturnData.m in Sources */,
