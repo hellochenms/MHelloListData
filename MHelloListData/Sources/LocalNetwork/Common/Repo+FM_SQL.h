@@ -16,7 +16,7 @@ extern NSString * const kColumnOwnerName;
 extern NSString * const kColumnOwnerAvatarURLString;
 extern NSString * const kColumnUpdateTime;
 
-extern NSString * const kIndexPostfix;
+extern NSString * const kIndexSuffix;
 
 @interface Repo (FM_SQL)
 

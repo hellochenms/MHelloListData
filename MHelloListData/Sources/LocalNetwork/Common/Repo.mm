@@ -24,6 +24,9 @@ WCDB_PRIMARY(Repo, rID)
 WCDB_INDEX(Repo, "_index", rID) // TableName_index
 WCDB_INDEX(Repo, "_index", starCount)
 
+NSString * const kRFMColumnRID = @"rID";
+NSString * const kRFMColumnStarCount = @"starCount";
+
 + (NSDictionary *)modelCustomPropertyMapper {
     return @{@"rID" : @"id",
              @"starCount" : @"stargazers_count",
@@ -33,4 +36,5 @@ WCDB_INDEX(Repo, "_index", starCount)
              @"updateTime" : @"updated_at",
              };
 }
+
 @end

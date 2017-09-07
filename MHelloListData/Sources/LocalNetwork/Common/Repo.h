@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 #import <YYModel/YYModel.h>
 
+extern NSString * const kRFMColumnRID;
+extern NSString * const kRFMColumnStarCount;
+
 @interface Repo : NSObject
 @property (nonatomic) NSInteger rID;
 @property (nonatomic, copy) NSString *name;
@@ -17,5 +20,6 @@
 @property (nonatomic, copy) NSString *ownerName;
 @property (nonatomic, copy) NSString *ownerAvatarURLString;
 @property (nonatomic) NSDate *updateTime;
+
 
 @end

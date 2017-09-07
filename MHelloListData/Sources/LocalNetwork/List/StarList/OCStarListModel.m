@@ -11,10 +11,12 @@
 #import <YYModel/YYModel.h>
 #import "OCStarListDAO_WC.h"
 #import "OCStarListDAO_FM_SQL.h"
+#import "OCStarListDAO_FM.h"
 
 @interface OCStarListModel ()
 //@property (nonatomic) OCStarListDAO_WC *dao;
-@property (nonatomic) OCStarListDAO_FM_SQL *dao;
+//@property (nonatomic) OCStarListDAO_FM_SQL *dao;
+@property (nonatomic) OCStarListDAO_FM *dao;
 @end
 
 @implementation OCStarListModel
@@ -115,9 +117,16 @@
 //    return _dao;
 //}
 
-- (OCStarListDAO_FM_SQL *)dao {
+//- (OCStarListDAO_FM_SQL *)dao {
+//    if(!_dao){
+//        _dao = [[OCStarListDAO_FM_SQL alloc] init];
+//    }
+//    return _dao;
+//}
+
+- (OCStarListDAO_FM *)dao {
     if(!_dao){
-        _dao = [[OCStarListDAO_FM_SQL alloc] init];
+        _dao = [[OCStarListDAO_FM alloc] init];
     }
     return _dao;
 }

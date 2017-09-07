@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		1A86838DA78B6473015DFA53 /* Pods_MHelloListDataUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322CEFBFE8C5F5A3F04B8EAE /* Pods_MHelloListDataUITests.framework */; };
 		54FC025AD189B130A2E46810 /* Pods_MHelloListData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53AE54DED0F759E8673296C /* Pods_MHelloListData.framework */; };
-		993171901F5D557600F27CA6 /* DBManager_FM.m in Sources */ = {isa = PBXBuildFile; fileRef = 9931718F1F5D557600F27CA6 /* DBManager_FM.m */; };
 		993171931F5D6F7700F27CA6 /* OCStarListDAO_FM_SQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 993171921F5D6F7700F27CA6 /* OCStarListDAO_FM_SQL.m */; };
 		993171961F5E714F00F27CA6 /* Repo+FM_SQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 993171951F5E714F00F27CA6 /* Repo+FM_SQL.m */; };
+		993171A51F5E98DB00F27CA6 /* OCStarListDAO_FM.m in Sources */ = {isa = PBXBuildFile; fileRef = 993171A41F5E98DB00F27CA6 /* OCStarListDAO_FM.m */; };
 		9961F2851F46E6AD003D8EFC /* LocalNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2841F46E6AD003D8EFC /* LocalNetworkViewController.m */; };
 		9961F2931F46E6B2003D8EFC /* ReturnData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2891F46E6B2003D8EFC /* ReturnData.m */; };
 		9961F29B1F46E6ED003D8EFC /* Repo.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9961F2991F46E6ED003D8EFC /* Repo.mm */; };
@@ -31,8 +31,12 @@
 		99B067061F2EE3200023C47E /* MHelloListDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B067051F2EE3200023C47E /* MHelloListDataTests.m */; };
 		99B067111F2EE3200023C47E /* MHelloListDataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B067101F2EE3200023C47E /* MHelloListDataUITests.m */; };
 		99E12C3A1F594B6600B1701B /* OCStarListDAO_WC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 99E12C391F594B6600B1701B /* OCStarListDAO_WC.mm */; };
-		99E12C431F594CA300B1701B /* DBConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E12C401F594CA300B1701B /* DBConstants.m */; };
-		99E12C441F594CA300B1701B /* DBManager_WC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 99E12C421F594CA300B1701B /* DBManager_WC.mm */; };
+		99E8A33A1F617927003D8967 /* BaseDAO_FM.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E8A32E1F617927003D8967 /* BaseDAO_FM.m */; };
+		99E8A33B1F617927003D8967 /* DBConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E8A3301F617927003D8967 /* DBConstants.m */; };
+		99E8A33C1F617927003D8967 /* DBManager_FM.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E8A3321F617927003D8967 /* DBManager_FM.m */; };
+		99E8A33D1F617927003D8967 /* DBManager_WC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 99E8A3341F617927003D8967 /* DBManager_WC.mm */; };
+		99E8A33E1F617927003D8967 /* M4PropertyFMDBAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E8A3371F617927003D8967 /* M4PropertyFMDBAdapter.m */; };
+		99E8A33F1F617927003D8967 /* M7PropertyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E8A3391F617927003D8967 /* M7PropertyHelper.m */; };
 		F84EAB0A9CA6178339C480DF /* Pods_MHelloListDataTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57373F66AF69303B290E70C0 /* Pods_MHelloListDataTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,12 +66,12 @@
 		57373F66AF69303B290E70C0 /* Pods_MHelloListDataTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHelloListDataTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87BBF8C1F70DA1EAA0995C11 /* Pods-MHelloListDataTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHelloListDataTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHelloListDataTests/Pods-MHelloListDataTests.release.xcconfig"; sourceTree = "<group>"; };
 		993171881F5D06E100F27CA6 /* Repo+WCTTableCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Repo+WCTTableCoding.h"; sourceTree = "<group>"; };
-		9931718E1F5D557600F27CA6 /* DBManager_FM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager_FM.h; sourceTree = "<group>"; };
-		9931718F1F5D557600F27CA6 /* DBManager_FM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager_FM.m; sourceTree = "<group>"; };
 		993171911F5D6F7700F27CA6 /* OCStarListDAO_FM_SQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCStarListDAO_FM_SQL.h; sourceTree = "<group>"; };
 		993171921F5D6F7700F27CA6 /* OCStarListDAO_FM_SQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCStarListDAO_FM_SQL.m; sourceTree = "<group>"; };
 		993171941F5E714F00F27CA6 /* Repo+FM_SQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Repo+FM_SQL.h"; sourceTree = "<group>"; };
 		993171951F5E714F00F27CA6 /* Repo+FM_SQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Repo+FM_SQL.m"; sourceTree = "<group>"; };
+		993171A31F5E98DB00F27CA6 /* OCStarListDAO_FM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCStarListDAO_FM.h; sourceTree = "<group>"; };
+		993171A41F5E98DB00F27CA6 /* OCStarListDAO_FM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCStarListDAO_FM.m; sourceTree = "<group>"; };
 		9961F2831F46E6AD003D8EFC /* LocalNetworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalNetworkViewController.h; sourceTree = "<group>"; };
 		9961F2841F46E6AD003D8EFC /* LocalNetworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalNetworkViewController.m; sourceTree = "<group>"; };
 		9961F2881F46E6B2003D8EFC /* ReturnData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReturnData.h; sourceTree = "<group>"; };
@@ -106,10 +110,18 @@
 		99B067121F2EE3200023C47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99E12C381F594B6600B1701B /* OCStarListDAO_WC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCStarListDAO_WC.h; sourceTree = "<group>"; };
 		99E12C391F594B6600B1701B /* OCStarListDAO_WC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OCStarListDAO_WC.mm; sourceTree = "<group>"; };
-		99E12C3F1F594CA300B1701B /* DBConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBConstants.h; sourceTree = "<group>"; };
-		99E12C401F594CA300B1701B /* DBConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBConstants.m; sourceTree = "<group>"; };
-		99E12C411F594CA300B1701B /* DBManager_WC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager_WC.h; sourceTree = "<group>"; };
-		99E12C421F594CA300B1701B /* DBManager_WC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DBManager_WC.mm; sourceTree = "<group>"; };
+		99E8A32D1F617927003D8967 /* BaseDAO_FM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDAO_FM.h; sourceTree = "<group>"; };
+		99E8A32E1F617927003D8967 /* BaseDAO_FM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDAO_FM.m; sourceTree = "<group>"; };
+		99E8A32F1F617927003D8967 /* DBConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBConstants.h; sourceTree = "<group>"; };
+		99E8A3301F617927003D8967 /* DBConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBConstants.m; sourceTree = "<group>"; };
+		99E8A3311F617927003D8967 /* DBManager_FM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager_FM.h; sourceTree = "<group>"; };
+		99E8A3321F617927003D8967 /* DBManager_FM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager_FM.m; sourceTree = "<group>"; };
+		99E8A3331F617927003D8967 /* DBManager_WC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager_WC.h; sourceTree = "<group>"; };
+		99E8A3341F617927003D8967 /* DBManager_WC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DBManager_WC.mm; sourceTree = "<group>"; };
+		99E8A3361F617927003D8967 /* M4PropertyFMDBAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M4PropertyFMDBAdapter.h; sourceTree = "<group>"; };
+		99E8A3371F617927003D8967 /* M4PropertyFMDBAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M4PropertyFMDBAdapter.m; sourceTree = "<group>"; };
+		99E8A3381F617927003D8967 /* M7PropertyHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M7PropertyHelper.h; sourceTree = "<group>"; };
+		99E8A3391F617927003D8967 /* M7PropertyHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M7PropertyHelper.m; sourceTree = "<group>"; };
 		A881DF6762548DBB6035F8BC /* Pods-MHelloListDataTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHelloListDataTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MHelloListDataTests/Pods-MHelloListDataTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B53AE54DED0F759E8673296C /* Pods_MHelloListData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MHelloListData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -159,7 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				9961F28F1F46E6B2003D8EFC /* Request */,
-				99E12C3E1F594CA200B1701B /* DB */,
+				99E8A32C1F617927003D8967 /* DB */,
 				9961F2871F46E6B2003D8EFC /* Data */,
 			);
 			path = Base;
@@ -220,6 +232,8 @@
 				99E12C391F594B6600B1701B /* OCStarListDAO_WC.mm */,
 				993171911F5D6F7700F27CA6 /* OCStarListDAO_FM_SQL.h */,
 				993171921F5D6F7700F27CA6 /* OCStarListDAO_FM_SQL.m */,
+				993171A31F5E98DB00F27CA6 /* OCStarListDAO_FM.h */,
+				993171A41F5E98DB00F27CA6 /* OCStarListDAO_FM.m */,
 			);
 			path = StarList;
 			sourceTree = "<group>";
@@ -312,15 +326,21 @@
 			path = Sources/LocalNetwork;
 			sourceTree = "<group>";
 		};
-		99E12C3E1F594CA200B1701B /* DB */ = {
+		99E8A32C1F617927003D8967 /* DB */ = {
 			isa = PBXGroup;
 			children = (
-				99E12C411F594CA300B1701B /* DBManager_WC.h */,
-				99E12C421F594CA300B1701B /* DBManager_WC.mm */,
-				9931718E1F5D557600F27CA6 /* DBManager_FM.h */,
-				9931718F1F5D557600F27CA6 /* DBManager_FM.m */,
-				99E12C3F1F594CA300B1701B /* DBConstants.h */,
-				99E12C401F594CA300B1701B /* DBConstants.m */,
+				99E8A32F1F617927003D8967 /* DBConstants.h */,
+				99E8A3301F617927003D8967 /* DBConstants.m */,
+				99E8A3331F617927003D8967 /* DBManager_WC.h */,
+				99E8A3341F617927003D8967 /* DBManager_WC.mm */,
+				99E8A3311F617927003D8967 /* DBManager_FM.h */,
+				99E8A3321F617927003D8967 /* DBManager_FM.m */,
+				99E8A32D1F617927003D8967 /* BaseDAO_FM.h */,
+				99E8A32E1F617927003D8967 /* BaseDAO_FM.m */,
+				99E8A3361F617927003D8967 /* M4PropertyFMDBAdapter.h */,
+				99E8A3371F617927003D8967 /* M4PropertyFMDBAdapter.m */,
+				99E8A3381F617927003D8967 /* M7PropertyHelper.h */,
+				99E8A3391F617927003D8967 /* M7PropertyHelper.m */,
 			);
 			path = DB;
 			sourceTree = "<group>";
@@ -618,15 +638,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99E12C431F594CA300B1701B /* DBConstants.m in Sources */,
-				99E12C441F594CA300B1701B /* DBManager_WC.mm in Sources */,
 				9961F2DF1F4AC460003D8EFC /* JSONRequestManager.m in Sources */,
+				993171A51F5E98DB00F27CA6 /* OCStarListDAO_FM.m in Sources */,
 				9961F29B1F46E6ED003D8EFC /* Repo.mm in Sources */,
 				99B066F31F2EE3200023C47E /* ViewController.m in Sources */,
-				993171901F5D557600F27CA6 /* DBManager_FM.m in Sources */,
 				993171961F5E714F00F27CA6 /* Repo+FM_SQL.m in Sources */,
+				99E8A33D1F617927003D8967 /* DBManager_WC.mm in Sources */,
+				99E8A33F1F617927003D8967 /* M7PropertyHelper.m in Sources */,
 				99E12C3A1F594B6600B1701B /* OCStarListDAO_WC.mm in Sources */,
 				99B066F01F2EE3200023C47E /* AppDelegate.m in Sources */,
+				99E8A33C1F617927003D8967 /* DBManager_FM.m in Sources */,
 				9961F2E21F4AC472003D8EFC /* HTMLRequestManager.m in Sources */,
 				9961F2D41F4AB8E5003D8EFC /* OCStarListModel.m in Sources */,
 				9961F2851F46E6AD003D8EFC /* LocalNetworkViewController.m in Sources */,
@@ -634,7 +655,10 @@
 				9961F2DC1F4AB93A003D8EFC /* RepoDetailModel.m in Sources */,
 				993171931F5D6F7700F27CA6 /* OCStarListDAO_FM_SQL.m in Sources */,
 				9961F2A71F497760003D8EFC /* Request.m in Sources */,
+				99E8A33B1F617927003D8967 /* DBConstants.m in Sources */,
+				99E8A33A1F617927003D8967 /* BaseDAO_FM.m in Sources */,
 				9961F2A41F497740003D8EFC /* RequestManager_AFN.m in Sources */,
+				99E8A33E1F617927003D8967 /* M4PropertyFMDBAdapter.m in Sources */,
 				9961F2931F46E6B2003D8EFC /* ReturnData.m in Sources */,
 				9961F2D91F4AB927003D8EFC /* ListModel.m in Sources */,
 			);

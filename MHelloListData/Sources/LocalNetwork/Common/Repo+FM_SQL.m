@@ -16,7 +16,7 @@ NSString * const kColumnOwnerName = @"ownerName";
 NSString * const kColumnOwnerAvatarURLString = @"ownerAvatarURLString";
 NSString * const kColumnUpdateTime = @"updateTime";
 
-NSString * const kIndexPostfix = @"index";
+NSString * const kIndexSuffix = @"index";
 
 @implementation Repo (FM_SQL)
 

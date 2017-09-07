@@ -33,7 +33,7 @@
             // index
             NSMutableString *indexSQL = [NSMutableString string];
             [indexSQL appendString:@"create index if not exists"];
-            [indexSQL appendFormat:@" %@_%@", kTableName_oc_star, kIndexPostfix];
+            [indexSQL appendFormat:@" %@_%@", kTableName_oc_star, kIndexSuffix];
             [indexSQL appendFormat:@" on %@", kTableName_oc_star];
             [indexSQL appendFormat:@" (%@", kColumnRID];
             [indexSQL appendFormat:@", %@);", kColumnStarCount];
